@@ -1,0 +1,19 @@
+<script> 
+function template (number, width) { 
+  var string = String(number); 
+  while (string.length < 3) 
+    string = "0" + string; 
+  return string; 
+}
+
+function feedMe(tacos, burritos, chips) { 
+  console.log(template(tacos, 3); 
+  console.log(template(burritos, 3);
+  console.log(template(chips, 3);
+} 
+
+feedMe(6,2,3); 
+</script>
+
+
+// Goal was to nest a function within a function, to improve formatting (seen in feedMe). 
